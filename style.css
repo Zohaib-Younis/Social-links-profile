@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(32, 28, 28, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center; /* Center-align the content horizontally */
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.container img {
+    display: block; /* Ensure the image doesn't have default inline-block behavior */
+    margin: 20px auto; /* Center the image horizontally */
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.container button {
+    margin-top: 10px; /* Add some space between buttons */
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(32, 28, 28, 0.849); /* Same as body's background color */
+    color: white; /* Text color */
+}
+.container button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container button:hover {
+    background-color: yellow; /* Change background color on hover */
+}
+
+.container h2 {
+    color: aliceblue;
+}
+
+.container p {
+    color: rgba(241, 245, 28, 0.945);
+}
+
+.container p span {
+    color: aliceblue;
+}
+
+.container button:hover ,
+.container button:hover a {
+    background-color: yellow;
+    color: black; 
+}
